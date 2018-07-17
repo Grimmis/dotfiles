@@ -5,16 +5,9 @@ export LSCOLORS=ExFxBxDxCxegedabagacad
 
 # An alias's alias
 alias ls='gls -aGFh --color'
-#alias emacs='emacsclient -nw'
+alias emacs='emacsclient -nw'
 
-# e~VI~l.sh
-set -o vi
-EDITOR=vim
-
-# Micro Note App
-note() {
-    echo $1 >> $HOME/.note
-}
+EDITOR=/usr/local/bin/vim
 
 ######################################################################################
 #                        ~ ::  H  O  M  E  B  R  E  W  :: ~                          #
@@ -27,3 +20,5 @@ note() {
 [ -f /usr/local/etc/bash_completion ] && . /usr/local/etc/bash_completion
 [[ :$PATH: == *:$HOME/bin:* ]] || PATH=$HOME/bin:$PATH
 export PATH
+
+fortune

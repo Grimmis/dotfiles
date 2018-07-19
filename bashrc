@@ -5,7 +5,7 @@ export LSCOLORS=ExFxBxDxCxegedabagacad
 
 # An alias's alias
 alias ls='gls -aGFh --color'
-alias emacs='emacsclient -nw'
+# alias emacs='emacsclient -nw'
 
 EDITOR=/usr/local/bin/vim
 
@@ -20,5 +20,3 @@ EDITOR=/usr/local/bin/vim
 [ -f /usr/local/etc/bash_completion ] && . /usr/local/etc/bash_completion
 [[ :$PATH: == *:$HOME/bin:* ]] || PATH=$HOME/bin:$PATH
 export PATH
-
-fortune

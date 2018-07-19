@@ -5,9 +5,11 @@ export LSCOLORS=ExFxBxDxCxegedabagacad
 
 # An alias's alias
 alias ls='gls -aGFh --color'
-# alias emacs='emacsclient -nw'
+alias emacs='emacsclient -nw'
+alias emacskill='emacsclient -e "(kill-emacs)"'
 
 EDITOR=/usr/local/bin/vim
+export EDITOR
 
 ######################################################################################
 #                        ~ ::  H  O  M  E  B  R  E  W  :: ~                          #
